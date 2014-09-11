@@ -1,0 +1,32 @@
+<editor>
+	<help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins#Publish</help>
+	<formElement>
+		<type>entry</type>
+		<label>Artifactory server URL:</label>
+		<property>pserver</property>
+		<required>1</required>
+		<documentation>URL to artifactory server, e.g. 'http://artifactory/artifactory'.</documentation>
+	</formElement>
+	<formElement>
+		<type>entry</type>
+		<label>Artifactory repository:</label>
+		<property>prepository</property>
+		<required>1</required>
+		<documentation>Repository name, e.g. 'repo'.</documentation>
+	</formElement>
+    <formElement>
+		<type>entry</type>
+		<label>Artifact name:</label>
+		<property>pname</property>
+		<required>1</required>
+		<documentation>The name of artifact.</documentation>
+	</formElement>
+    <formElement>
+		<type>entry</type>
+		<label>Source directory:</label>
+		<property>pdirectory</property>
+		<required>1</required>
+		<documentation>Source directory where artifact is.
+		</documentation>
+	</formElement>
+</editor>

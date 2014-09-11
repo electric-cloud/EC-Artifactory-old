@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <key>@PLUGIN_KEY@</key>
+    <version>@PLUGIN_VERSION@</version>
+    <label>EC-Artifactory</label>
+    <description>Artifactory integration plugin</description>
+    <author>Electric Cloud</author>
+    <authorUrl>http://www.electric-cloud.com/support</authorUrl>
+    <category>System</category>
+    <help>@PLUGIN_KEY@_help.xml</help>
+    <commander-version min="4.2"/>
+</plugin>

@@ -1,0 +1,60 @@
+<editor>
+	<help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins#Retrieve</help>
+	<formElement>
+		<type>entry</type>
+		<label>Artifactory server URL:</label>
+		<property>server</property>
+		<required>1</required>
+		<documentation>URL to artifactory server, e.g.
+			'http://artifactory/artifactory'.
+		</documentation>
+	</formElement>
+	<formElement>
+		<type>entry</type>
+		<label>Artifactory repository:</label>
+		<property>repository</property>
+		<required>1</required>
+		<documentation>Repository name, e.g. 'repo'.</documentation>
+	</formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Artifact group:</label>
+        <property>group</property>
+        <required>1</required>
+        <documentation>The name of artifact's group.</documentation>
+    </formElement>
+    <formElement>
+		<type>entry</type>
+		<label>Artifact name:</label>
+		<property>name</property>
+		<required>1</required>
+		<documentation>The name of artifact.</documentation>
+	</formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Artifact version:</label>
+        <property>version</property>
+        <documentation>Version of artifact.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Artifact classifier:</label>
+        <property>classifier</property>
+        <documentation>Artifact classifier, e.g. 'sources'.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Artifact extension:</label>
+        <property>type</property>
+        <required>1</required>
+        <documentation></documentation>
+    </formElement>
+    <formElement>
+		<type>entry</type>
+		<label>Destination directory:</label>
+		<property>directory</property>
+		<required>1</required>
+		<documentation>Destination directory to retrieve artifact to.
+		</documentation>
+	</formElement>
+</editor>
